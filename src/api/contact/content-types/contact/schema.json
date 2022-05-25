@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Контакты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactName": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "mapUrl": {
+      "type": "text",
+      "required": true
+    },
+    "routeOnFoot": {
+      "displayName": "RouteOnFoot",
+      "type": "component",
+      "repeatable": false,
+      "component": "route.route-on-foot"
+    },
+    "routeOnCar": {
+      "displayName": "routeOnCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "route.route-on-card"
+    },
+    "workTime": {
+      "type": "string"
+    },
+    "pathHeader": {
+      "type": "string"
+    }
+  }
+}

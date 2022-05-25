@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_order_steps_order_steps",
+  "info": {
+    "displayName": "order-steps",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stepName": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step-item.step-item",
+      "required": true
+    }
+  }
+}

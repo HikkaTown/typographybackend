@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_route_route_on_foots",
+  "info": {
+    "displayName": "RouteOnFoot",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "videoPreview": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

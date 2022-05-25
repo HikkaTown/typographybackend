@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_info_component_info_components",
+  "info": {
+    "displayName": "infoComponent",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstBlock": {
+      "type": "text",
+      "required": true
+    },
+    "secondBlock": {
+      "type": "text",
+      "required": true
+    },
+    "thirdBlock": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

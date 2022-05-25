@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_step_block_step_blocks",
+  "info": {
+    "displayName": "stepBlock",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step-item.step-item"
+    },
+    "header": {
+      "type": "string"
+    }
+  }
+}

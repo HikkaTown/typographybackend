@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_table_table_row_items",
+  "info": {
+    "displayName": "TableRowItem",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rowText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_seo_blocks_seo_indices",
+  "info": {
+    "displayName": "SeoIndex",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "firstSeoHeader": {
+      "type": "string"
+    },
+    "secondSeoHeader": {
+      "type": "string"
+    },
+    "seoImagePc": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "seoImageTablet": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "seoImageMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "firstSeoDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "secondSeoDescription": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

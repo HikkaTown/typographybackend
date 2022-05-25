@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_data_page_data",
+  "info": {
+    "displayName": "pageData",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaHead": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

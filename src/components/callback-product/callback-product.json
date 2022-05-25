@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_callback_product_callback_products",
+  "info": {
+    "displayName": "CallbackProduct",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

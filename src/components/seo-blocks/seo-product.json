@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_seo_blocks_seo_products",
+  "info": {
+    "displayName": "SeoProduct",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "seoHeader": {
+      "type": "string",
+      "required": true
+    },
+    "seoDescription": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

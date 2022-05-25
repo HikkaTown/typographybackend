@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_info_component_info_lists",
+  "info": {
+    "displayName": "infoList",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "infoListItem": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

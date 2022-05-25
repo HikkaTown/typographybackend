@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tech_require_require_lists",
+  "info": {
+    "displayName": "requireList",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

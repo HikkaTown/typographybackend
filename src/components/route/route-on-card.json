@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_route_route_on_cards",
+  "info": {
+    "displayName": "routeOnCar",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoPreview": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

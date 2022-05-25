@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_table_table_columns",
+  "info": {
+    "displayName": "Table-Column",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table-row-item"
+    },
+    "columnName": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

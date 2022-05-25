@@ -1,0 +1,128 @@
+{
+  "kind": "collectionType",
+  "collectionName": "straniczy_uslugs",
+  "info": {
+    "singularName": "straniczy-uslug",
+    "pluralName": "straniczy-uslugs",
+    "displayName": "Страницы услуг",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "header": {
+      "type": "text",
+      "required": false
+    },
+    "metaHead": {
+      "type": "text",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "defaultText": {
+      "type": "string"
+    },
+    "defaultPrice": {
+      "type": "integer"
+    },
+    "deliveryAmount": {
+      "type": "integer"
+    },
+    "headStyle": {
+      "type": "enumeration",
+      "enum": [
+        "yellow",
+        "blue",
+        "red",
+        "green",
+        "hightblue"
+      ],
+      "default": "yellow",
+      "required": true
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step-block.step-block"
+    },
+    "files": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "callbackBlock": {
+      "displayName": "CallbackProduct",
+      "type": "component",
+      "repeatable": false,
+      "component": "callback-product.callback-product"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "catalog-tab.catalog-tab"
+    },
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table-column"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service.service",
+      "inversedBy": "pages"
+    },
+    "title": {
+      "type": "text"
+    },
+    "tech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tech-require.tech-require"
+    },
+    "shortDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-component.info-component"
+    },
+    "seoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-blocks.seo-product"
+    },
+    "infoList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info-component.info-list"
+    },
+    "tableName": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table-name"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table"
+    },
+    "proekts": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tabyproektov.tabyproektov",
+      "inversedBy": "product_project"
+    }
+  }
+}

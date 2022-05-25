@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_tech_require_tech_requires",
+  "info": {
+    "displayName": "techRequire",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "list": {
+      "displayName": "requireList",
+      "type": "component",
+      "repeatable": true,
+      "component": "tech-require.require-list"
+    }
+  }
+}

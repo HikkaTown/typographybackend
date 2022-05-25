@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "proekties",
+  "info": {
+    "singularName": "proekty",
+    "pluralName": "proekties",
+    "displayName": "Проекты"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaHead": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    }
+  }
+}

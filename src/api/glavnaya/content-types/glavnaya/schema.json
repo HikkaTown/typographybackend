@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "glavnayas",
+  "info": {
+    "singularName": "glavnaya",
+    "pluralName": "glavnayas",
+    "displayName": "Главная",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-data.page-data"
+    },
+    "seoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-blocks.seo-index"
+    },
+    "shortDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-component.info-component"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otzyvies",
+  "info": {
+    "singularName": "otzyvy",
+    "pluralName": "otzyvies",
+    "displayName": "Отзывы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personName": {
+      "type": "string",
+      "required": true
+    },
+    "reviewText": {
+      "type": "richtext",
+      "required": true
+    },
+    "stars": {
+      "type": "integer",
+      "min": 1,
+      "max": 5,
+      "required": true
+    },
+    "userPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

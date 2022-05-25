@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_table_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "tableColumn": {
+      "displayName": "Table-Column",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table-column"
+    }
+  }
+}

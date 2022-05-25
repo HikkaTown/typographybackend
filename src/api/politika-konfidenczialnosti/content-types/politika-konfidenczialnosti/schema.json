@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "politika_konfidenczialnostis",
+  "info": {
+    "singularName": "politika-konfidenczialnosti",
+    "pluralName": "politika-konfidenczialnostis",
+    "displayName": "Политика конфиденциальности"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paragraph": {
+      "displayName": "paragraph",
+      "type": "component",
+      "repeatable": true,
+      "component": "paragraph.paragraph"
+    }
+  }
+}

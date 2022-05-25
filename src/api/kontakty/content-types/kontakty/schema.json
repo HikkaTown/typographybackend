@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontakties",
+  "info": {
+    "singularName": "kontakty",
+    "pluralName": "kontakties",
+    "displayName": "Контакты"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaHead": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "mapUrl": {
+      "type": "string"
+    }
+  }
+}

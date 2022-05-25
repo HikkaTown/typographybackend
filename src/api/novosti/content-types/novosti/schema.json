@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novostis",
+  "info": {
+    "singularName": "novosti",
+    "pluralName": "novostis",
+    "displayName": "Новости",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "postName": {
+      "type": "string",
+      "required": true
+    },
+    "postText": {
+      "type": "richtext",
+      "required": true
+    },
+    "postDate": {
+      "type": "date",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "metaHead": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    }
+  }
+}
