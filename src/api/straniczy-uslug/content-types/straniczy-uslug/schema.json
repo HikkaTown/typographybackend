@@ -118,11 +118,11 @@
       "repeatable": true,
       "component": "table.table"
     },
-    "proekts": {
+    "proekt": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::tabyproektov.tabyproektov",
-      "inversedBy": "product_project"
+      "inversedBy": "product_projects"
     }
   }
 }

@@ -24,11 +24,11 @@
       "target": "api::project.project",
       "mappedBy": "category"
     },
-    "product_project": {
+    "product_projects": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::straniczy-uslug.straniczy-uslug",
-      "inversedBy": "proekts"
+      "mappedBy": "proekt"
     }
   }
 }

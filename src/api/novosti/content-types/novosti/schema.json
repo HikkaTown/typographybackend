@@ -30,7 +30,7 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -39,10 +39,12 @@
       ]
     },
     "metaHead": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "metaDescription": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
