@@ -29,6 +29,20 @@
       "relation": "oneToMany",
       "target": "api::straniczy-uslug.straniczy-uslug",
       "mappedBy": "category"
+    },
+    "seoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-blocks.seo-product"
+    },
+    "meta": {
+      "displayName": "meta",
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.meta"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
