@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "varianty_forms",
+  "info": {
+    "singularName": "varianty-form",
+    "pluralName": "varianty-forms",
+    "displayName": "Варианты форм"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "variantName": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "biginteger",
+      "default": "0",
+      "required": true
+    },
+    "kartochki_formies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kartochki-formy.kartochki-formy",
+      "mappedBy": "variant"
+    }
+  }
+}

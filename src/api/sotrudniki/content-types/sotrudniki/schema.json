@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sotrudnikis",
+  "info": {
+    "singularName": "sotrudniki",
+    "pluralName": "sotrudnikis",
+    "displayName": "Сотрудники"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profession": {
+      "type": "string"
+    },
+    "name": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "colorProfText": {
+      "type": "string",
+      "default": "#056AC7"
+    },
+    "colorProfBackground": {
+      "type": "string",
+      "default": "#AFD7FD"
+    },
+    "specific": {
+      "type": "integer",
+      "default": 1
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

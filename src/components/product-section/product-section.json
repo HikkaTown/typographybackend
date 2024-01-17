@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_product_section_product_sections",
+  "info": {
+    "displayName": "productSection",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "index": {
+      "type": "integer",
+      "default": 0
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

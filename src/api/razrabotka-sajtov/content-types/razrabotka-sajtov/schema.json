@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "razrabotka_sajtovs",
+  "info": {
+    "singularName": "razrabotka-sajtov",
+    "pluralName": "razrabotka-sajtovs",
+    "displayName": "Разработка сайтов",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-blocks.seo-product"
+    },
+    "productSection": {
+      "displayName": "productSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "product-section.product-section"
+    },
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "header": {
+      "type": "richtext"
+    }
+  }
+}

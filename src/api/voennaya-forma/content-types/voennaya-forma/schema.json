@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "voennaya_formas",
+  "info": {
+    "singularName": "voennaya-forma",
+    "pluralName": "voennaya-formas",
+    "displayName": "Военная форма",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shortDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info-component.info-component"
+    },
+    "pageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-data.page-data"
+    },
+    "seoBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo-blocks.seo-product"
+    },
+    "callbackBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "callback-product.callback-product"
+    },
+    "vidy_proektov": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tabyproektov.tabyproektov"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "catalog-tab.catalog-tab"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
