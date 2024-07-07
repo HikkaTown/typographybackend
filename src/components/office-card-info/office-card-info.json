@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_office_card_info_office_card_infos",
+  "info": {
+    "displayName": "office-card-info",
+    "icon": "wheelchair"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "infoText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

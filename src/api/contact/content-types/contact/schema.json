@@ -49,6 +49,45 @@
     },
     "pathHeader": {
       "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.meta"
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phoneIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mailIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "officeCardInfo": {
+      "displayName": "office-card-info",
+      "type": "component",
+      "repeatable": true,
+      "component": "office-card-info.office-card-info"
     }
   }
 }
