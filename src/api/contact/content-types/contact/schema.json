@@ -83,11 +83,27 @@
         "images"
       ]
     },
-    "officeCardInfo": {
-      "displayName": "office-card-info",
+    "workTimeIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "addressIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "column": {
+      "displayName": "column",
       "type": "component",
       "repeatable": true,
-      "component": "office-card-info.office-card-info"
+      "component": "column.column"
     }
   }
 }

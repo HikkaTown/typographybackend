@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_column_columns",
+  "info": {
+    "displayName": "column",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "line": {
+      "displayName": "columnLine",
+      "type": "component",
+      "repeatable": true,
+      "component": "column.column-line"
+    }
+  }
+}
